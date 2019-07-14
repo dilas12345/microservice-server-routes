@@ -1,0 +1,37 @@
+{
+  "name": "microservice-server-routes",
+  "version": "0.0.2",
+  "description": "Express server routes built for microservices",
+  "main": "index.js",
+  "scripts": {
+    "test": "snyk test && eslint *.js routes/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dilas12345/microservice-server-routes.git"
+  },
+  "keywords": [
+    "server",
+    "express",
+    "microservice-server"
+  ],
+  "author": "Yusuph Dilas Che",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/dilas12345/microservice-server-routes/issues"
+  },
+  "homepage": "https://github.com/dilas12345/microservice-server-routes#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-interceptor": "^1.2.0",
+    "express-session": "^1.16.2",
+    "glob": "^7.1.4",
+    "on-headers": "^1.0.2",
+    "passport": "^0.4.0",
+    "passport-google-oauth": "^2.0.0",
+    "request": "^2.88.0",
+    "serializer": "0.0.3",
+    "snyk": "^1.193.1"
+  }
+}
